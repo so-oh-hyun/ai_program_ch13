@@ -66,7 +66,7 @@ def main():
     if st.session_state.interview_question:
         st.write("### 예상 질문: ")
         st.write(f"{st.session_state.interview_question}")
-        st.write("### 답변 녹음 후 평가받기")
+        st.write("### 🎙️답변 녹음 후 평가받기")
     # 답변 녹음 후 저장
     audio = st.audio_input("답변 녹음하기")
     if audio and st.button("답변 평가받기"):
